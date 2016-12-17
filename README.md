@@ -36,7 +36,7 @@ pyqs/pyqs.py for connecting to Quickstep via python
 - nobench_data_argo_extra_num.txt
 - nobench_data_argo_extra_bool.txt
 
-- results<datasize>.csv [Eg. results16000000.csv] - Elapsed time for 10 runs of the 12 NoBench Queries on the systems
+- results\<datasize\>.csv [Eg. results16000000.csv] - Elapsed time for 10 runs of the 12 NoBench Queries on the systems
 
 
 
