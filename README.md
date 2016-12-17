@@ -13,11 +13,11 @@ Library
 pyqs/pyqs.py for connecting to Quickstep via python
 
 Execution
-1. python driver.py - Generates data, loads data into all 3 systems, executes 10 runs of NoBench queries on all 3 systems
-2. python driver.py --mongo --psql --qstep     - Same as 1
-3. python driver.py --gen --load --run --mongo - Same as 1 but only on MongoDB
-4. python driver.py --gen --load --run --mongo --noclean - Same as 1 but only on MongoDB and retains data in MongoDB after run
-5. python driver.py --gen --load --run --test - Same as 1 but populates test data [smaller data size] in test tables on all 3 sys
+- python driver.py - Generates data, loads data into all 3 systems, executes 10 runs of NoBench queries on all 3 systems
+- python driver.py --mongo --psql --qstep     - Same as 1
+- python driver.py --gen --load --run --mongo - Same as 1 but only on MongoDB
+- python driver.py --gen --load --run --mongo --noclean - Same as 1 but only on MongoDB and retains data in MongoDB after run
+- python driver.py --gen --load --run --test - Same as 1 but populates test data [smaller data size] in test tables on all 3 sys
 
 
 
