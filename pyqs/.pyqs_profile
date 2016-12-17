@@ -1,0 +1,4 @@
+# The module will automatically initialize the database if the storage_path
+# doesn't already exist.
+
+storage_path /proj/streaming-PG0/764/quickstep/build/qsstor 
