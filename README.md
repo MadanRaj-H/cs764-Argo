@@ -12,6 +12,7 @@ Argo Json document store on Quickstep, Postgres, MongoDB [CS 764 Project Fall 20
 - json2bulksql.py - Converts json objects resulting from NoBench data generation module and converts to 3 files in Argo format
 
 **Library**
+
 pyqs/pyqs.py for connecting to Quickstep via python
 
 **Execution**
